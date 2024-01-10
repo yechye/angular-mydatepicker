@@ -17,7 +17,7 @@ export class DatePickerReactiveForms implements OnInit {
 
   public myForm: FormGroup;
 
-  @ViewChild('dp', { static: false }) myDp: AngularMyDatePickerDirective;
+  @ViewChild('dp') myDp: AngularMyDatePickerDirective;
 
   constructor(private formBuilder: FormBuilder, private renderer: Renderer2, private cdr: ChangeDetectorRef) {
   }
