@@ -33,7 +33,7 @@ function getTodayDate(): string {
   template: '<input style="width: 400px;" class="myDateInput" type="{{inputType}}" id="myDateInput" [options]="options" name="mydate" angular-mydatepicker #dp="angular-mydatepicker" />'
 })
 class AngularMyDatepickerTestComponent {
-  @ViewChild('dp', { status: false }) vcDp: AngularMyDatePickerDirective;
+  @ViewChild('dp', { static: false }) vcDp: AngularMyDatePickerDirective;
 
   inputType: string = 'text';
 
