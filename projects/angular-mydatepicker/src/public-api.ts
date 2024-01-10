@@ -1,3 +1,4 @@
+import { FooterBarComponent } from './lib/components/footer-bar/footer-bar.component';
 /*
  * Public API Surface of angular-mydatepicker
  */
@@ -53,5 +54,6 @@ export {DefaultView} from "./lib/enums/default-view.enum";
 export {ActiveView} from "./lib/enums/active-view.enum";
 export {CalAnimation} from "./lib/enums/cal-animation.enum";
 export {HeaderAction} from "./lib/enums/header-action.enum";
+export {FooterBarComponent} from "./lib/components/footer-bar/footer-bar.component";
 
 export * from "./lib/constants/constants";
